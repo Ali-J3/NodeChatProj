@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#video-grid {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+}
+
+.main-left{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-right{
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    background-color: #b3bcc5;
+    border-left: 1px solid black;
+}
+
+.main-video {
+    flex-grow: 1;
+    background-color: #b3bcc5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-controls{
+    display: flex;
+    background-color: black;
+    color: #708090;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.main-controls-groupedBlocks{
+    display: flex;
+
+}
+
+.main-controls-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.main-controls-btn i {
+    font-size: 35px;
+}
+
+.main-controls-btn:hover {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.main-header {
+    color: white;
+    text-align: center;
+}
+
+.main-chat-windw {
+    flex-grow: 1;
+}
+
+.main-message-container {
+    display: flex;
+    padding: 22px 12px;
+}
+
+.main-message-container input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: #708090;
+    color: white;
+}
+
